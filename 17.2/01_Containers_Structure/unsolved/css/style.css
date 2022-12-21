@@ -1,1 +1,103 @@
 /*  Hi! your going to write styles here in the next couple activities. */
+
+.header { height: 500px;
+        max-height: 500px;
+        background-image: url(../images/upsBackground.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;}
+
+#pagetopic {text-align: center;}
+
+.colorcontainer { display: inline-block;
+                margin: 15px;}
+
+.swatch { height: 150px;
+            width: 170px;
+            border: 0.5px solid black;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            box-shadow: black;}
+
+
+.darkblue { background-color: #333366;}
+
+.darkgrey { background-color: #545454;}
+
+.lightgrey { background-color: #E3E3E3;}
+
+.white { background-color: #FFFFFF;}
+
+.lightblue { background-color: #13A0F6;}
+
+.lightgreen { background-color: #8abe48;}
+
+.red { background-color: #f84848;}
+
+.orange { background-color: #fc7705;}
+
+
+
+.hexcode { padding: 15px;
+            text-align: center;
+            border: 2px solid black;
+            border-top: none;
+            border-bottom-left-radius: 7px;
+            border-bottom-right-radius: 7px;}
+
+.type_container { display: inline-block;
+                margin: 20px;}
+
+.button {display: inline-block;
+            padding: 15px;
+            margin: 15px;
+            width: 150px;
+            text-align: center;
+            color: white;
+            outline: 1px solid rgb(255, 255, 255);
+            border-radius: 15px;}
+
+.primary {
+    background-color: darkblue;
+}
+
+.success {
+    background-color: #8abe48;
+}
+
+.danger {
+    background-color: red;
+}
+
+.warning {
+    background-color: orange;
+}
+
+.info {
+    background-color: #13A0F6;
+}
+
+.primaryactive {
+    background-color: #3a66b7;
+}
+
+.successactive {
+    background-color: #668c37;
+}
+
+.dangeractive {
+    background-color: #ad4848;
+}
+
+.warningactive {
+    background-color: #ba7a43;
+}
+
+.infoactive {
+    background-color: #4386ba;
+}
+
+.sectionhead {
+    border-bottom: 8px solid #dddddd;
+}
+
