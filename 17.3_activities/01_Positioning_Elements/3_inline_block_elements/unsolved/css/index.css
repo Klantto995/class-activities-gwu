@@ -1,10 +1,32 @@
 nav {
   height: 50px;
   background-color: lightgrey;
+  
 }
 
 /* target the class of inline-block below */
-
+.inline-block {display: inline-block;
+  padding: 15px;
+  float: right;
+}
 /* target the class of .left below */
-
+.left{ height: 750px;
+float: left;
+background-color: aquamarine;
+width: 30%;
+text-align: center;}
 /* target the class of .right below */
+.right{ height: 750px;
+float: left;
+background-color: green;
+width: 70%;
+text-align: center;
+}
+
+.card {display: inline-block;
+background-color: #C6C6C6;
+border-radius: 5px;
+height: 200px;
+width: 150px;
+margin: 35px;
+margin-top: 50px;}
