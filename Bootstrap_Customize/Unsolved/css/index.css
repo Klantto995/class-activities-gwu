@@ -1,3 +1,58 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Anton', sans-serif;
+}
+
+p {
+  font-family: "Jura", sans-serif;
+}
+
+.customNav {
+  position: fixed;
+  width: 100%;
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+
+.customNav a {
+  color: white !important;
+}
+
+.navCTA {
+  font-size: 15px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+
+.navbar-brand img {
+  padding-right: 15px;
+  width: 65px;
+}
+
+.nav-item {
+  margin: 0px 15px;
+}
+
+.dropdown-menu {
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #16181b;
+  text-decoration: none;
+  background: black;
+
+}
+
+
+
 footer {
   position: absolute;
   width: 100%;
@@ -11,4 +66,107 @@ footer {
 }
 .card {
   margin: 0 auto;
+}
+
+.rockbackground {
+  background-image: url(../images/rockOn_dark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.jumbocopy {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: white;
+  text-align: center;
+}
+
+.content {
+  padding: 50px;
+}
+
+.sectionheading {
+  text-align: center;
+
+}
+
+.showsnear {
+  0px 30px 30px 30px
+}
+
+.cardContainer { 
+  text-align: center;
+}
+
+.valueprop {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+
+.sideAccent {
+  background-color: #007bff;
+  width: 15px;
+
+
+}
+
+.imagecontainer {
+  padding: 50px;
+
+}
+
+.imagecontainer img {
+  width: 100%;
+}
+
+.emailcontain {
+  background: url(../images/emailBG.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+
+}
+
+form {
+  width: 500px;
+  margin: 35px auto;
+  padding: 45px;
+  border: 5px solid #916e6e;
+  border-radius: 5%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+  background-color: rgba(236, 236, 236, 0.801); 
+
+
+}
+
+form label {
+  font-weight: lighter;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+form h3 {
+  text-align: left;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+form button {
+  float: right;
+}
+
+form input {
+  
 }
