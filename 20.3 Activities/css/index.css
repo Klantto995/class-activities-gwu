@@ -1,0 +1,75 @@
+.customnav {
+    padding: 10px 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.collapse { 
+    margin-left: 1500px;
+    margin-top: 20px;
+
+}
+
+
+.nav-item { 
+    margin-right: 25px;
+    font-size: 20px;
+
+}
+
+
+
+.logoimg {
+    margin-top: 20px;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    background: url(../images/Hero\ Screen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: blanchedalmond;
+    height: 850px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contentsection {
+    padding-top: 75px;
+  }
+
+  .leftcolumn {
+    padding-bottom: 15px;
+  }
+
+  .rightcolumn {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+
+
+  .contentimage {
+    width: 650px;
+    height: auto;
+    padding-left: 40px;
+    border-radius: 15%;
+
+  }
+
+  .sectionheading {
+    background-color: #0D8CCC;
+    font-weight: bold;
+    text-align: center;
+    color: #F48B36;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 48px;
+  }
+
+  .heading {
+    padding-bottom: 50px;
+    color: #0D8CCC;
+    font-weight: bold;
+    word-spacing: 50%;
+  }
